@@ -68,7 +68,7 @@ const Header: React.FC = () => {
                 </div>
 
                 <MenuList open={open}>
-                    <MenuItem>Calendar</MenuItem>
+                    <Link to="/calendar"><MenuItem>Calendar</MenuItem></Link>
                     <MenuItem>Analyze</MenuItem>
                     <Link to="/price"><MenuItem>Price</MenuItem></Link>
                     <MenuItem style={{ marginRight: open ? 0 : '20px' }}><Button>Sign In</Button></MenuItem>
